@@ -14,7 +14,7 @@ import pandas as pd
 
 
 # Create the Spark and SQL Context objects
-conf = (SparkConf().setAppName("Train wine app"))
+conf = (SparkConf().setAppName("Project 2"))
 sc = SparkContext("local", conf=conf)
 sc.setLogLevel("ERROR")
 sqlContext = SQLContext(sc)
